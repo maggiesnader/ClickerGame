@@ -284,7 +284,7 @@ namespace ClickerRepo
                 Console.Clear();
                 Console.WriteLine("Congratulations! You have caught the attention of an investor!\n" +
                     "They would like to purchase your candy shop for $1,000,000\n" +
-                        "You're able to Retire!" +
+                        "You're able to Retire!\n\n" +
                         "GAME OVER!");
                 Console.ReadLine();
 
