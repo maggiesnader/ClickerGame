@@ -30,7 +30,7 @@ namespace ClickerGameUI
                 {
                     _gameMethods.EmergencyResponse2();
                 }
-                if (_gameMethods.TotalCash() >= 3000 && _gameMethods.TotalCash() <= 4000)
+                if (_gameMethods.TotalCash() >= 3000 && _gameMethods.TotalCash() <= 3500)
                 {
                     _gameMethods.EmergencyResponse3();
                 }
@@ -60,7 +60,7 @@ namespace ClickerGameUI
                     {
                         case " ":
                             _gameMethods.Sell();
-                            Console.WriteLine("Your cash: $" + _gameMethods.TotalCash());
+                            //Console.WriteLine("Your cash: $" + _gameMethods.TotalCash());
                             break;
                         case "1":
                             _gameMethods.Upgrade1();

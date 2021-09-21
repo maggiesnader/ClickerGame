@@ -170,7 +170,6 @@ namespace ClickerRepo
                     Console.WriteLine("Not a valid answer, Try Again!");
                     Console.ReadLine();
                     break;
-
             }
         }
 
@@ -196,7 +195,6 @@ namespace ClickerRepo
                     Console.WriteLine("Not a valid answer, Try Again!");
                     Console.ReadLine();
                     break;
-
             }
         }
 
@@ -239,13 +237,12 @@ namespace ClickerRepo
                     FixTire();
                     break;
                 case "2":
-                    SkipWork();
+                    GoToWork();
                     break;
                 default:
                     Console.WriteLine("Not a valid answer, Try Again!");
                     Console.ReadLine();
                     break;
-
             }
         }
 
@@ -262,7 +259,7 @@ namespace ClickerRepo
             return _gameData.Cash;
         }
 
-        public int SkipWork()
+        public int GoToWork()
         {
             _gameData.Cash = TotalCash() - 2000;
             Console.WriteLine("\nYou get to your car after work and the tire is COMPLETELY flat.\n" +

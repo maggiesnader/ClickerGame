@@ -20,7 +20,5 @@ namespace ClickerRepo
             Min = min;
             Min2 = min2;
         }
-
-        
     }
 }
