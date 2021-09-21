@@ -59,7 +59,6 @@ namespace ClickerGameUI
                     switch (userResponse)
                     {
                         case " ":
-                            Console.Clear();
                             _gameMethods.Sell();
                             Console.WriteLine("Your cash: $" + _gameMethods.TotalCash());
                             break;

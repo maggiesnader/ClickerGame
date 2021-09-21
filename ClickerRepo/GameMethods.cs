@@ -8,7 +8,6 @@ namespace ClickerRepo
 {
     public class GameMethods
     {
-
         private GameData _gameData = new GameData(0, 1, 20, 50);
 
         public int TotalCash()
@@ -66,7 +65,6 @@ namespace ClickerRepo
 
 
         //UPGRADES
-
         public void Upgrade1()
         {
             if (TotalCash() < 20)
