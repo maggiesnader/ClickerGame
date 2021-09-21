@@ -60,7 +60,6 @@ namespace ClickerGameUI
                     {
                         case " ":
                             _gameMethods.Sell();
-                            //Console.WriteLine("Your cash: $" + _gameMethods.TotalCash());
                             break;
                         case "1":
                             _gameMethods.Upgrade1();
